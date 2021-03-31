@@ -1,0 +1,20 @@
+spring:
+  datasource:
+    driver-class-name: org.h2.Driver
+    password: 
+    url: jdbc:h2:mem:testdb
+    username: sa  
+  jpa:
+    properties:
+      hibernate:
+        format_sql: true
+        show_sql: true
+    database-platform: org.hibernate.dialect.H2Dialect
+  mvc:
+    view:
+      prefix: /views/
+      suffix: .jsp
+server:
+    port: 9494
+    servlet:
+      context-path: /PhoneBook

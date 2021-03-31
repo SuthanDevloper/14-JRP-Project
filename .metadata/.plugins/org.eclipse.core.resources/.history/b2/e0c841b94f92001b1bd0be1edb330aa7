@@ -1,0 +1,69 @@
+package com.suthan.service;
+
+import java.util.ArrayList;
+import java.util.List;
+import java.util.Optional;
+
+import org.springframework.beans.BeanUtils;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+
+import com.suthan.dto.Contact;
+import com.suthan.entity.ContactEntity;
+import com.suthan.repo.ContactDtlsRepository;
+
+@Service
+public class ContactServiceImpl implements ContactService {
+	
+	@Autowired
+	private ContactDtlsRepository contactDtlsRepo;
+
+	@Override
+	
+	public boolean saveContact(Contact c) {
+		
+
+		
+		ContactEntity entity = new ContactEntity();
+		BeanUtils.copyProperties(c,entity);
+		
+	
+		ContactEntity saveEnity =contactDtlsRepo.save(entity);
+		return saveEnity.getContactId() != null;
+	}
+
+	@Override
+	//GET from Entity class to POJO class 
+	public List<Contact> getAllContacts() {
+		
+		
+		return contactDtlsRepo.findAll();
+	}
+
+	@Override
+	public Contact getContactById(Integer cid) {
+		Optional<ContactEntity> findById= contactDtlsRepo.findById(cid);
+		
+		if(findById.isPresent()){
+			ContactEntity entity=findById.get();
+			Contact c = new Contact();
+			BeanUtils.copyProperties(entity,c);
+		return c;	
+		}
+		return null;
+	}
+	
+
+	@Override
+	public boolean updateContact(Contact c) {
+		
+		return false;
+	}
+
+	@Override
+	public boolean deleteContact(Integer cid) {
+		contactDtlsRepo.deleteById(cid);
+		return true;
+	}
+
+}

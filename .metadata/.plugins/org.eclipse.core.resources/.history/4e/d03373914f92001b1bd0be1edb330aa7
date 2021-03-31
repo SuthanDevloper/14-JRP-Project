@@ -1,0 +1,47 @@
+package com.suthan.dto;
+
+import java.io.Serializable;
+import java.util.Date;
+
+import javax.persistence.Entity;
+
+import lombok.Data;
+
+@Data 
+@Entity
+@Table=(name="CONTACT_DTLS")
+public class Contact implements Serializable {
+
+	private Integer contactId;
+	private String contactName;
+	private String contactEmail;
+	private Long contactNumber;
+
+	
+	
+	
+	
+//	/**
+//	 * 
+//	 */
+//	//private static final long serialVersionUID = 1L;
+//
+//
+//	private Integer contactId;
+//	
+//	
+//	private String  contactName;
+//	
+//	
+//	private String  contactEmail;
+//	
+//	
+//	private Long contactNumber;
+//	
+//	
+//	private Date createDate;
+//	
+//	
+//	private Date updateDate;
+
+}

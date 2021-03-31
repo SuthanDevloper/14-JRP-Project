@@ -1,0 +1,74 @@
+2021-03-31 20:06:14,188 [Worker-1: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2021-03-31 20:06:22,401 [Worker-4: Updating Maven Dependencies] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: phone-contact-project:demo:0.0.1-SNAPSHOT @ C:\PRACTICAL\JAVA_TOOLS_REALTIME\PhoneContactApp\pom.xml.
+2021-03-31 20:06:22,989 [Worker-1: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: phone-contact-project:demo:0.0.1-SNAPSHOT @ C:\PRACTICAL\JAVA_TOOLS_REALTIME\PhoneContactApp\pom.xml.
+2021-03-31 20:06:26,740 [Worker-1: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-03-31 20:06:26,747 [Worker-1: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2021-03-31 20:06:26,946 [Worker-1: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-03-31 20:06:26,954 [Worker-1: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-03-31 20:06:26,954 [Worker-1: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\PRACTICAL\JAVA_TOOLS_REALTIME\PhoneContactApp\src\test\resources
+2021-03-31 20:06:29,437 [Worker-8: Updating Maven Dependencies] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: phone-contact-project:demo:0.0.1-SNAPSHOT @ C:\PRACTICAL\JAVA_TOOLS_REALTIME\PhoneContactApp\pom.xml.
+2021-03-31 20:06:31,996 [Worker-7: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-03-31 20:06:32,000 [Worker-7: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-03-31 20:06:32,000 [Worker-7: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-03-31 20:06:32,004 [Worker-7: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-03-31 20:06:32,004 [Worker-7: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\PRACTICAL\JAVA_TOOLS_REALTIME\PhoneContactApp\src\test\resources
+2021-03-31 20:06:43,231 [Worker-4: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2021-03-31 20:06:44,315 [Worker-4: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: phone-contact-project:demo:0.0.1-SNAPSHOT @ C:\PRACTICAL\JAVA_TOOLS_REALTIME\PhoneContactApp\pom.xml.
+2021-03-31 20:06:45,446 [Worker-4: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /PhoneApp/src/main/java
+2021-03-31 20:06:45,447 [Worker-4: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /PhoneApp/src/main/resources
+2021-03-31 20:06:45,448 [Worker-4: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /PhoneApp/src/main/resources
+2021-03-31 20:06:45,449 [Worker-4: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /PhoneApp/src/test/java
+2021-03-31 20:06:46,429 [Worker-4: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 3 sec
+2021-03-31 20:06:48,499 [Worker-6: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-03-31 20:06:48,500 [Worker-6: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2021-03-31 20:06:48,515 [Worker-6: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-03-31 20:06:48,517 [Worker-6: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-03-31 20:06:48,518 [Worker-6: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\PRACTICAL\JAVA_TOOLS_REALTIME\PhoneContactApp\src\test\resources
+2021-03-31 20:07:43,164 [Worker-2: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-03-31 20:07:43,167 [Worker-2: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2021-03-31 20:07:43,173 [Worker-2: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-03-31 20:07:43,176 [Worker-2: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-03-31 20:07:43,176 [Worker-2: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\PRACTICAL\JAVA_TOOLS_REALTIME\PhoneContactApp\src\test\resources
+2021-03-31 20:08:29,771 [Worker-0: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-03-31 20:08:29,773 [Worker-0: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2021-03-31 20:08:29,781 [Worker-0: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-03-31 20:08:29,784 [Worker-0: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-03-31 20:08:29,784 [Worker-0: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\PRACTICAL\JAVA_TOOLS_REALTIME\PhoneContactApp\src\test\resources
+2021-03-31 20:08:40,497 [Worker-9: Launching PhoneApp - DemoApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-03-31 20:08:40,499 [Worker-9: Launching PhoneApp - DemoApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2021-03-31 20:08:40,506 [Worker-9: Launching PhoneApp - DemoApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-03-31 20:08:40,510 [Worker-9: Launching PhoneApp - DemoApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-03-31 20:08:40,510 [Worker-9: Launching PhoneApp - DemoApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\PRACTICAL\JAVA_TOOLS_REALTIME\PhoneContactApp\src\test\resources
+2021-03-31 20:09:26,824 [Worker-3: Launching Executing clean in C__PRACTICAL_JAVA_TOOLS_REALTIME_PhoneContactApp] INFO  o.e.m.i.launch.MavenLaunchDelegate - C:\PRACTICAL\JAVA_TOOLS_REALTIME\PhoneContactApp
+2021-03-31 20:09:26,825 [Worker-3: Launching Executing clean in C__PRACTICAL_JAVA_TOOLS_REALTIME_PhoneContactApp] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B clean -Dstyle.color=always
+2021-03-31 20:09:30,214 [Worker-4: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-03-31 20:09:30,215 [Worker-4: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2021-03-31 20:09:30,222 [Worker-4: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-03-31 20:09:30,225 [Worker-4: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-03-31 20:09:30,225 [Worker-4: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\PRACTICAL\JAVA_TOOLS_REALTIME\PhoneContactApp\src\test\resources
+2021-03-31 20:09:35,545 [main] INFO  o.e.m2e.actions.ExecutePomAction - Creating new launch configuration
+2021-03-31 20:09:43,196 [Worker-3: Launching PhoneContactApp (3)] INFO  o.e.m.i.launch.MavenLaunchDelegate - C:\PRACTICAL\JAVA_TOOLS_REALTIME\PhoneContactApp
+2021-03-31 20:09:43,197 [Worker-3: Launching PhoneContactApp (3)] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B package -Dstyle.color=always
+2021-03-31 20:10:23,249 [Worker-5: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-03-31 20:10:23,252 [Worker-5: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2021-03-31 20:10:23,255 [Worker-5: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-03-31 20:10:23,258 [Worker-5: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-03-31 20:10:23,258 [Worker-5: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\PRACTICAL\JAVA_TOOLS_REALTIME\PhoneContactApp\src\test\resources
+2021-03-31 20:10:24,709 [Worker-7: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-03-31 20:10:24,711 [Worker-7: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2021-03-31 20:10:24,717 [Worker-7: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-03-31 20:10:24,720 [Worker-7: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-03-31 20:10:24,721 [Worker-7: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\PRACTICAL\JAVA_TOOLS_REALTIME\PhoneContactApp\src\test\resources
+2021-03-31 20:10:29,376 [main] INFO  o.e.m2e.actions.ExecutePomAction - Creating new launch configuration
+2021-03-31 20:10:35,664 [Worker-1: Launching PhoneContactApp (4)] INFO  o.e.m.i.launch.MavenLaunchDelegate - C:\PRACTICAL\JAVA_TOOLS_REALTIME\PhoneContactApp
+2021-03-31 20:10:35,665 [Worker-1: Launching PhoneContactApp (4)] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B package -Dstyle.color=always
+2021-03-31 20:11:21,602 [Worker-8: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-03-31 20:11:21,603 [Worker-8: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-03-31 20:11:21,603 [Worker-8: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-03-31 20:11:21,606 [Worker-8: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-03-31 20:11:21,606 [Worker-8: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\PRACTICAL\JAVA_TOOLS_REALTIME\PhoneContactApp\src\test\resources
+2021-03-31 20:11:27,101 [Worker-4: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-03-31 20:11:27,102 [Worker-4: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-03-31 20:11:27,102 [Worker-4: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-03-31 20:11:27,104 [Worker-4: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-03-31 20:11:27,104 [Worker-4: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\PRACTICAL\JAVA_TOOLS_REALTIME\PhoneContactApp\src\test\resources

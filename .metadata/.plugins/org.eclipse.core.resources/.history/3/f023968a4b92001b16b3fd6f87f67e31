@@ -1,0 +1,35 @@
+package com.suthan.controller;
+
+import org.springframework.stereotype.Component;
+
+@Component
+public class ViewContactController {
+	
+	@Autowired
+	private ContactService contactService;
+
+	@GetMapping(value = { "/", "/addContact" })
+	public String loadForm(Model model) {
+		Contact c = new Contact();
+		model.addAttribute("contact", c);
+		return "contactInfo";
+	}
+
+	@PostMapping(value = "/saveContact")
+	public String handleSubmitBtn(@ModelAttribute("contact") Contact c, Model model) {
+		boolean isSaved = contactService.saveContact(c);
+		if(isSaved) {
+			model.addAttribute("succMsg", "Contact Saved");
+		}else {
+			model.addAttribute("errMsg", "Failed To Save Contact");
+		}
+		return "contactInfo";
+	}
+
+	@GetMapping("/viewContacts")
+	public String handleViewContactsLink(Model model) {
+		List<Contact> contactsList = contactService.getAllContacts();
+		model.addAttribute("contacts", contactsList);
+		return "viewContacts";
+	}
+}

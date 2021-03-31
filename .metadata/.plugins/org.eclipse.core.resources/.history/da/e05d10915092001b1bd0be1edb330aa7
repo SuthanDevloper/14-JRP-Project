@@ -1,0 +1,16 @@
+package com.suthan.repo;
+
+import java.io.Serializable;
+
+import org.springframework.data.jpa.repository.JpaRepository;
+
+import com.suthan.dto.Contact;
+import com.suthan.entity.ContactEntity;
+
+
+public interface ContactDtlsRepository extends JpaRepository<Contact, Integer> {
+
+	 //findById()void;
+	
+
+}

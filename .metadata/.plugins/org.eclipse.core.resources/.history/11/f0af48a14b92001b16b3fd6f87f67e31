@@ -1,0 +1,26 @@
+package com.suthan.controller;
+
+import org.springframework.stereotype.Component;
+
+@Component
+public class ViewContactController {
+	
+	@Autowired
+	private ContactService contactService;
+
+	@RequestMapping("/editContact")
+	public String editContact(@RequestParam("cid") Integer contactId, Model model) {
+		Contact c = contactService.getContactById(contactId);
+		model.addAttribute("contact", c);
+		return "contactInfo";
+	}
+
+	@RequestMapping("/deleteContact")
+	public String deleteContact(@RequestParam("cid") Integer contactId) {
+		boolean isDeleted = contactService.deleteContact(contactId);
+		if(isDeleted) {
+			return "redirect:/viewContacts";
+		}
+		return null;
+	}
+}
